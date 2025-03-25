@@ -1,10 +1,35 @@
 # Getting Started with Create React App
+# Expenses Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+A simple yet powerful expense tracker built with React. It allows users to add, filter, and view their expenses dynamically. The project provides an intuitive UI with real-time updates and data filtering features.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
+- Add new expenses with a title, amount, and date.
+- Filter expenses by year.
+- Display expenses dynamically in a structured format.
+- Responsive design for seamless usage across devices.
+
+  
+## Technologies Used
+- React.js
+- CSS for styling
+
+
+## Hooks Used
+- `useState` → To manage expenses, filters, and user input state.
+- `useEffect` → To handle side effects like retrieving stored data.
+
+
+## Functions Overview
+- `addExpenseHandler` → Adds a new expense to the list.
+- `deleteExpenseHandler` → Deletes a selected expense.
+- `filterExpensesByYear` → Filters expenses based on the selected year.
+- `formatCurrency` → Formats numbers into currency format.
+- `handleInputChange` → Updates state when user inputs data.
+
+
 
 ### `npm start`
 
@@ -29,42 +54,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
